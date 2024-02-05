@@ -31,3 +31,13 @@ if temperature >=68) && temperature <=72 {
 else {
     print("The temperature is too hot or cold")
 }
+
+//OR operators
+var mainsPower = false
+var batteryPower = true
+if mainsPower || batteryPower {
+    print("I can use my phone")
+｝
+else {
+    print ("Better find a charger")
+}
