@@ -1,8 +1,22 @@
 conditional :
 
-if statement
+>>> if statement
 
 if condition is true 
 {
     Execute some code
 }
+
+>>> Else statement
+if condition is true
+    Execute some code if
+    result is True
+｝
+else
+{
+    Execute some code if
+    result is False
+}
+
+
+
