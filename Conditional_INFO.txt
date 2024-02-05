@@ -18,5 +18,16 @@ else
     result is False
 }
 
+Else/if statement
 
+var position = 2
+if position == 1 {
+    print ("You came first")
+}
+else if position == 2 {
+    print ("You came second")
+｝
+else {
+    print(" You did not finish in the top 2")
+｝
 
