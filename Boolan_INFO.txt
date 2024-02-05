@@ -1,0 +1,36 @@
+ Boolan true False
+its look like the python
+
+
+//symbole for logically :
+
+/*
+==      equal   
+>       greater than
+>=      grater or equal
+<       smaller than
+<=      smaller or equal
+
+!=      not eqal
+
+
+&&      and              a >5 && a<10
+!       not              а >5 || а>10
+||      or               !(a>5)
+^       exclusive or     5^10
+
+*/
+
+//logical and Operator      &&    true && true
+//>>>like the email 
+//user and pass : the both of them must be true to going true and open email
+
+
+//logical or Operator          ||   true || true,  true||false , false||true. (NOT>> false || false )
+// >>> minimally one of them must be true () 
+
+
+
+
+
+
