@@ -14,3 +14,20 @@ if watertemp >= 100{
 else {
         print("the water is not boiling!")
 }
+
+
+//BOOLAN
+let coldOutside = true
+if coldOutside == true {
+    print("Put on a warm coat")
+}
+
+//AND operator
+
+var temperature = 69
+if temperature >=68) && temperature <=72 {
+    print("The temperature is just right")
+｝
+else {
+    print("The temperature is too hot or cold")
+}
