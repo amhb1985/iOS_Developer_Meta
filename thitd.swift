@@ -16,7 +16,15 @@ import UIKit
 !=      not eqal
 
 
+&&      and
+!       not
+||      or
 */
+
+//logical and Operator
+//>>>like the email 
+//user and pass : the both of them must be true to going true and open email
+
 
 
 
