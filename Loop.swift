@@ -16,3 +16,19 @@ while turns >= 3
     print("this is the turn number \(turns)")
     turns += 1
 }
+
+
+
+var totalturn = 3
+var turnsleft = true
+
+while turnsleft
+{
+    totalturn -= 1
+    if totalturn > 1
+    {
+        turnsleft = false
+    }
+    print("go anoter turn!")
+    
+}
