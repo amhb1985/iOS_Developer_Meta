@@ -6,8 +6,13 @@ while(month < 4){
     
     for i in 1...4{
          //Braek test
-        if i == 3 {
+        /*if i == 3 {
             break
+        }
+        */
+        // continue test
+        if i == 2 {
+            continue
         }
         print("count: \(i)")
     }
