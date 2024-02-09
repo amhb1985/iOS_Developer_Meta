@@ -15,3 +15,10 @@ var (vegType, quantity, inStock) = vegtable
 print(vegType)
 
 
+
+// another form for show the Tupple element is:
+//
+var veg = (vegType:"Carrot", quantity:3, inStock: true)
+
+// show in veg >>> .vegType
+print(veg.vegType)
