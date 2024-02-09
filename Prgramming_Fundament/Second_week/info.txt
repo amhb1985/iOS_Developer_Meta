@@ -1,0 +1,4 @@
+# this is about the learning in the Coursera and Meta as iOS App developer courses:
+
+the second week titles about :
+1. data structures : arrays and tuples and other COLLECTION types. 
