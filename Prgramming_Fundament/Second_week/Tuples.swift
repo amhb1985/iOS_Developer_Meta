@@ -22,3 +22,5 @@ var veg = (vegType:"Carrot", quantity:3, inStock: true)
 
 // show in veg >>> .vegType
 print(veg.vegType)
+ // or we can set and reach with Index Number:
+print(veg.2)
