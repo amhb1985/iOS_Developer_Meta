@@ -17,3 +17,28 @@ for (level, score) in levelScores.enumerated()
     print("The score of level \(level + 1) is \(score).")
 }
 
+//2: Display final game score:
+var gameScore = 0
+for levelScore in levelScores{
+    gameScore += levelScore
+}
+print("The game's score is \(gameScore).")
+
+
+
+//3: Display the weather forecast while the game is played:
+let weeklyTemperatures = [
+  "Monday": 70, "Tuesday": 75, "Wednesday": 80,
+  "Thursday": 85, "Friday": 90, "Saturday": 95, "Sunday": 100,
+]
+for (day, temperature) in weeklyTemperatures {
+  print("The temperature on \(day) is \(temperature)°F.")
+}
+
+//4: Sequence the weather forecast accurately :
+let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+let temperatures = [70, 75, 80, 85, 90, 95, 100]
+for index in 0...6 {
+  print("The temperature on \(days[index]) is \(temperatures[index])°F.")
+}
+
