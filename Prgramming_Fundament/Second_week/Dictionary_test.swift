@@ -22,3 +22,6 @@ weeklyTemperatures["Monday"]! += 20print("The temperature on Monday is \(weeklyT
 
 //4:  Add a new key-value pair:
 if let temperature = weeklyTemperatures["Sunday"] {  print("The temperature on Sunday is \(temperature)°F.")} else {  weeklyTemperatures["Sunday"] = 100  print("The temperature on Sunday is \(weeklyTemperatures["Sunday"]!)°F.")}
+
+//5: Reset the dictionary for a new week: 
+if weeklyTemperatures.count == 7 {  print("You have access to the weather forecast of the whole week.")  weeklyTemperatures = [:]  print("Reset weekly temperatures for next week!")}
