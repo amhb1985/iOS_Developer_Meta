@@ -12,8 +12,10 @@ import Foundation
 
 //1: Create a dictionary
 //Creating an empty dictionary and explicitly setting its type.
-
 var weeklyTemperatures: [String: Int] = [:]
+
+//2: Set the daily temperatures in the dictionary
+weeklyTemperatures = ["Monday": 70, "Tuesday": 75, "Wednesday": 80, "Thursday": 85, "Friday": 90, "Saturday": 95]
 
 
 
