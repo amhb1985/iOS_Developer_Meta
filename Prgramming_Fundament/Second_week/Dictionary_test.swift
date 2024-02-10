@@ -19,3 +19,6 @@ weeklyTemperatures = ["Monday": 70, "Tuesday": 75, "Wednesday": 80, "Thursday": 
 
 //3: Update and evaluate the first day’s temperature
 weeklyTemperatures["Monday"]! += 20print("The temperature on Monday is \(weeklyTemperatures["Monday"]!)°F.")
+
+//4:  Add a new key-value pair:
+if let temperature = weeklyTemperatures["Sunday"] {  print("The temperature on Sunday is \(temperature)°F.")} else {  weeklyTemperatures["Sunday"] = 100  print("The temperature on Sunday is \(weeklyTemperatures["Sunday"]!)°F.")}
